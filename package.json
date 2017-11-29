@@ -1,7 +1,7 @@
 {
-  "name": "homebridge-MySwitch",
-  "version": "1.0.0",
-  "description": "",
+  "name": "homebridge-kumo",
+  "version": "0.0.1",
+  "description": "Control your Kumo Cloud enabled mini-split with Homekit",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,9 +13,12 @@
     "node": ">=0.12.0",
     "homebridge": ">=0.2.0"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
+  "author": "Mikael Nelson",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikaelnelson/homebridge-kumo.git"
+    },
+    "dependencies": {
     "request": "^2.67.0"
   }
 }
